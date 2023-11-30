@@ -1,5 +1,5 @@
 {
-  "name": "GUID",
+  "name": "guid-generator",
   "displayName": "GUIDGenerator",
   "description": "Generate a GUID",
   "version": "0.0.1",
@@ -7,18 +7,17 @@
     "vscode": "^1.84.0"
   },
   "categories": ["Other"],
-  "activationEvents": ["onCommand:GUID.Generator"],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "GUID.Generator",
+        "command": "extension.generateGUID",  
         "title": "GUIDGenerator"
       }
     ],
     "keybindings": [
       {
-        "command": "GUID.Generator",
+        "command": "extension.generateGUID",  
         "key": "ctrl+shift+h",
         "mac": "cmd+shift+h",
         "when": "editorTextFocus"

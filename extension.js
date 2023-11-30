@@ -17,15 +17,10 @@ function generateGUID() {
  * @param {vscode.ExtensionContext} context
  */
 function activate(context) {
-	let disposable = vscode.commands.registerTextEditorCommand(
-		'GUID.Generator',
-		(textEditor, edit) => {
-		  const position = textEditor.selection.active;
-		  const guid = generateGUID();
-		  edit.insert(position, guid);
-		}
-	  );
-	  
+	let disposable = vscode.commands.registerCommand('extension.generateGUID', () => {
+		const guid = generateGUID();
+		vscode.window.showInformationMessage(`Generated GUID: ${guid}`);
+	  });
 
 	context.subscriptions.push(disposable);
 }
