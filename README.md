@@ -31,7 +31,7 @@ Follow these steps to install the extension:
 
 2. Go to the Extensions view (`Ctrl+Shift+X`).
 
-3. Search for "GUID Extension".
+3. Search for "GUIDGenerator".
 
 4. Click on the "Install" button for the extension provided by the author.
 
