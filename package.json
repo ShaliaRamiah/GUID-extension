@@ -1,11 +1,13 @@
 {
   "name": "guid-generator",
   "displayName": "GUIDGenerator",
-  "description": "Generate a GUID",
+  "publisher": "ShaliaRamiah",
+  "description": "Generate a GUID at cursor",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.84.0"
   },
+  "repository": "https://github.com/ShaliaRamiah/GUID-extension",
   "categories": ["Other"],
   "main": "./extension.js",
   "contributes": {
