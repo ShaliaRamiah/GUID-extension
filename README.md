@@ -33,7 +33,7 @@ Follow these steps to install the extension:
 
 3. Search for "GUIDGenerator".
 
-4. Click on the "Install" button for the extension provided by the author.
+4. Click on the "Install" button for the extension.
 
 ## Acknowledgments
 
