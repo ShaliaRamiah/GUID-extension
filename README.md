@@ -1,65 +1,41 @@
-# GUID README
+# GUID Extension
 
-This is the README for your extension "GUID". After writing up a brief description, we recommend including the following sections.
+## Overview
+
+This is a Visual Studio Code extension that allows you to generate and display a GUID at the bottom of the screen, making it easy for you to copy and use it wherever needed. The extension follows a simple and convenient approach by assigning shortcut keys for quick generation and insertion of GUIDs.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Shortcut Keys:** You can generate a GUID and display it at the bottom of the screen with just a keyboard shortcut. The default shortcut keys are:
+    - Windows/Linux: `Ctrl+Shift+H`
+    - Mac: `Cmd+Shift+H`
 
-For example if there is an image subfolder under your extension project workspace:
+- **Insert GUID at Cursor:** The extension creates a GUID at the location of your cursor in the editor.
 
-\!\[feature X\]\(images/feature-x.png\)
+## Usage
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1. **Generate GUID:**
+    - Use the designated shortcut keys to generate a GUID.
+    
+2. **Copy GUID:**
+    - Once the GUID is displayed at the bottom of the screen, you can easily copy it for use in your code or other applications.
 
-## Requirements
+3. **Insert GUID at Cursor:**
+    - Place your cursor in the desired location in the editor and generate a GUID using the shortcut keys. The GUID will be inserted at the cursor position.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Installation
 
-## Extension Settings
+Follow these steps to install the extension:
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+1. Open Visual Studio Code.
 
-For example:
+2. Go to the Extensions view (`Ctrl+Shift+X`).
 
-This extension contributes the following settings:
+3. Search for "GUID Extension".
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+4. Click on the "Install" button for the extension provided by the author.
 
-## Known Issues
+## Acknowledgments
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+This extension was developed with the assistance of the tutorial available at [Web Dev Simplified](https://www.youtube.com/watch?v=q5V4T3o3CXE). 
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
