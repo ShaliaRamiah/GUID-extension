@@ -7,8 +7,8 @@ This is a Visual Studio Code extension that allows you to generate and display a
 ## Features
 
 - **Shortcut Keys:** You can generate a GUID and display it at the bottom of the screen with just a keyboard shortcut. The default shortcut keys are:
-    - Windows/Linux: `Ctrl+Shift+H`
-    - Mac: `Cmd+Shift+H`
+    - Windows/Linux: `Ctrl+Shift+B`
+    - Mac: `Cmd+Shift+B`
 
 - **Insert GUID at Cursor:** The extension creates a GUID at the location of your cursor in the editor.
 
