@@ -3,7 +3,7 @@
   "displayName": "GUIDGenerator",
   "publisher": "ShaliaRamiah",
   "description": "Generate a GUID at cursor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "icon": "image/GUID.png",
   "engines": {
     "vscode": "^1.84.0"
