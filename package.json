@@ -3,7 +3,7 @@
   "displayName": "GUIDGenerator",
   "publisher": "ShaliaRamiah",
   "description": "Generate a GUID at cursor",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "icon": "image/GUID.png",
   "engines": {
     "vscode": "^1.84.0"
@@ -14,15 +14,18 @@
   "contributes": {
     "commands": [
       {
-        "command": "extension.generateGUID",  
+        "command": "extension.generateGUID",
         "title": "GUIDGenerator"
       }
     ],
+    "activationEvents": [
+      "onCommand:extension.generateGUID"
+    ],
     "keybindings": [
       {
-        "command": "extension.generateGUID",  
-        "key": "ctrl+shift+b",
-        "mac": "cmd+shift+b",
+        "command": "extension.generateGUID",
+        "key": "ctrl+alt+O",
+				"mac": "cmd+shift+O",
         "when": "editorTextFocus"
       }
     ]
