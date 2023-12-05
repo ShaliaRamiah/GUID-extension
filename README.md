@@ -1,41 +1,58 @@
-# GUID Extension
+# GUID Generator Extension
 
 ## Overview
 
-This is a Visual Studio Code extension that allows you to generate and display a GUID at the bottom of the screen, making it easy for you to copy and use it wherever needed. The extension follows a simple and convenient approach by assigning shortcut keys for quick generation and insertion of GUIDs.
+The GUID Generator extension for Visual Studio Code simplifies the process of generating Globally Unique Identifiers (GUIDs), providing a quick and efficient way to insert unique identifiers directly into your code.
 
 ## Features
 
-- **Shortcut Keys:** You can generate a GUID and display it at the bottom of the screen with just a keyboard shortcut. The default shortcut keys are:
-    - Windows/Linux: `Ctrl+Shift+B`
-    - Mac: `Cmd+Shift+B`
-
-- **Insert GUID at Cursor:** The extension creates a GUID at the location of your cursor in the editor.
-
+- **Quick Generation:** Generate GUIDs effortlessly with a single keyboard shortcut.
+  
+- **Insert at Cursor:** The extension seamlessly inserts the generated GUID at the exact location of your cursor/caret in the code editor.
+  
 ## Usage
 
-1. **Generate GUID:**
-    - Use the designated shortcut keys to generate a GUID.
-    
-2. **Copy GUID:**
-    - Once the GUID is displayed at the bottom of the screen, you can easily copy it for use in your code or other applications.
+1. **Generate GUID:** Use the designated keyboard shortcut to swiftly generate a GUID.
+    - `Ctrl+Alt+O` on Windows/Linux
+    - `Cmd+Shift+O` on Mac
 
-3. **Insert GUID at Cursor:**
-    - Place your cursor in the desired location in the editor and generate a GUID using the shortcut keys. The GUID will be inserted at the cursor position.
+2. **Insert at Cursor:**
+    - Place your cursor in the desired location within the code editor and trigger the GUID generation shortcut. The GUID will be inserted at the cursor/caret position.
 
 ## Installation
 
-Follow these steps to install the extension:
+Install the extension in a few simple steps:
 
 1. Open Visual Studio Code.
 
-2. Go to the Extensions view (`Ctrl+Shift+X`).
+2. Navigate to the Extensions view (`Ctrl+Shift+X`).
 
 3. Search for "GUIDGenerator".
 
-4. Click on the "Install" button for the extension.
+4. Click on the "Install" button to add the extension to your development environment.
+
+## Release Notes
+
+### Version 0.0.1 (Initial Release)
+
+- **Initial Release:**
+  - Introduction of the GUID Generator extension for Visual Studio Code.
+
+### Version 0.1.1
+
+- **Shortcut Updates:**
+  - Keyboard shortcut enhancements.
+
+### Version 0.2.1 (Current Release)
+
+- **New Feature:**
+  - GUIDs now display directly at the cursor/caret position in the code editor.
+
+- **Enhancement:**
+  - Shortcut updates.
 
 ## Acknowledgments
 
-This extension was developed with the assistance of the tutorial available at [Web Dev Simplified](https://www.youtube.com/watch?v=q5V4T3o3CXE). 
+This extension was developed with help from the tutorial available at [Web Dev Simplified](https://www.youtube.com/watch?v=q5V4T3o3CXE).
 
+Happy coding with your GUID generation!
